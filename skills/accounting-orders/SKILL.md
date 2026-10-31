@@ -15,7 +15,5 @@ description: "Orders: List orders, Create a new order, Get order by ID with entr
 - `orders_fulfill_order`: Deliver every line of the order left
 - `orders_fulfill_lines`: Deliver some lines of the order
 - `orders_get_order_invoice`: Get the linked invoice for an order
-- `orders_refund_order`: Refund an order, or part of it
 - `orders_get_refund_options`: What the order can still be refunded, and how
 - `orders_list_refunds`: The order's refunds
-- `orders_retry_refund`: Send a refund's pending gateway refunds again

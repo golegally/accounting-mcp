@@ -31,7 +31,7 @@ This package connects your AI assistant to one hosted MCP server at https://gole
 - **accounting-credit-notes**: Credit Notes: List all credit notes, Create a new credit note, Delete multiple credit notes, Validate which credit notes can be deleted
 - **accounting-currencies**: Currencies: Retrieve all currencies, Create a new currency, List exchange rates with optional filtering, Create a new exchange rate entry
 - **accounting-currency-revaluation**: Currency Revaluation: List all revaluations for the organization, Preview revaluation without posting (dry run), Run currency revaluation and post GL entries, Get revaluation with entry details
-- **accounting-customer-credits**: Customer Credits: Get customer credit balances, Apply customer credit balance to an invoice, Take a credit application back off its invoice, Refund customer credit balance to bank
+- **accounting-customer-credits**: Customer Credits: Get customer credit balances, Apply customer credit balance to an invoice, Take a credit application back off its invoice, Top up customer credit balance
 - **accounting-deferred-revenue**: Deferred Revenue: Revenue invoiced but not yet earned, Process pending revenue recognition entries, List deferred revenue schedules, Get deferred revenue schedule with entries
 - **accounting-document-reporting**: Document Reporting: Whether a registration reports its invoices to the tax authority, Report an issued invoice to the tax authority, Cancel an invoice's report at the tax authority, voiding the invoic
 - **accounting-documentnumberformats**: DocumentNumberFormats: How each document type is numbered, Set a document type's number format, Reset a document type's number format
@@ -51,15 +51,15 @@ This package connects your AI assistant to one hosted MCP server at https://gole
 - **accounting-opening-balances**: Opening balances: Get the opening balances, Set the accounts' opening balances, Carry in an open bill, Remove an opening bill
 - **accounting-order-access**: Order Access: The grant a buyer holds, by checkout or by order, to extend or rotate when they have lost their link; never returns a to, Claim completed checkout for order-only buyer access; retry usin
 - **accounting-order-lines**: Order Lines: Set an order line's quantity; the catalogue prices the added units
-- **accounting-order-payment-schedule**: Order Payment Schedule: The order's payment schedule, in its own order, Cancel a pending scheduled row, Collect one scheduled row; an open row takes its amount here
-- **accounting-ordercharges**: OrderCharges: Every invoice of the order with its open link, and the order's outstanding total, Charge an order again: issue a further invoice and open its payment link
+- **accounting-order-payment-schedule**: Order Payment Schedule: The order's payment schedule, in its own order, Cancel a pending scheduled row
+- **accounting-ordercharges**: OrderCharges: Every invoice of the order with its open link, and the order's outstanding total
 - **accounting-orders**: Orders: List orders, Create a new order, Get order by ID with entries, Update a draft order
 - **accounting-payment-receives**: Payment Receives: List all payments, Create a new payment received, Delete multiple payments, Tax customers withheld from their payments
 - **accounting-payment-reminders**: Payment reminders: A customer's notifications, Exclude a customer from payment reminders and invoice messages, or include them again, Exclude an invoice from payment reminders, or include it again, Wh
 - **accounting-payment-terms**: Payment terms: A customer's commitments, latest first, Record a commitment and invoice the part of it already due, A customer's payment terms, and what they have paid in, owe, used and may still spend
 - **accounting-paymentaccounts**: PaymentAccounts: The organization's payment accounts, without their keys, Add a payment account, The accounts each brand takes payments with, Choose the accounts a brand takes payments with
 - **accounting-paymentgatewayconfig**: PaymentGatewayConfig: The payment providers this engine can take payments through
-- **accounting-paymentgatewayinvoice**: PaymentGatewayInvoice: Open a payment attempt against an invoice, with the organisation's gateway, Verify a gateway payment against an invoice and record what it collected
+- **accounting-paymentgatewayinvoice**: PaymentGatewayInvoice: Verify a gateway payment against an invoice and record what it collected
 - **accounting-paymenttransactions**: PaymentTransactions: Get one payment transaction, Close a payment attempt that will not be completed, Ask the gateway what became of this attempt, and record its answer
 - **accounting-payroll-journals**: Payroll Journals: List payroll journals, Book a payroll journal, List saved payroll columns, Preview a payroll journal
 - **accounting-pdf-generation**: PDF Generation: Generate a bill PDF and return a presigned S3 URL, Generate a credit note PDF and return a presigned S3 URL, Generate a payment received PDF and return a presigned S3 URL, Generate a s
@@ -77,7 +77,7 @@ This package connects your AI assistant to one hosted MCP server at https://gole
 - **accounting-sale-invoices**: Sale Invoices: List all sale invoices with pagination, Create a new sale invoice, Delete multiple sale invoices, List the invoices with money owed on them
 - **accounting-sale-receipts**: Sale Receipts: List all sale receipts, Create a new sale receipt, Delete multiple sale receipts, Validate which sale receipts can be deleted
 - **accounting-settings**: Settings: Get the organization's settings, Whether the organization can issue documents, Get all settings for a group, Set a setting value
-- **accounting-subscription-add-ons**: Subscription Add-ons: List all add-ons for a subscription (pending + billed history), Queue a one-time charge on a subscription, List only pending (unbilled) add-ons for a subscription (paginated), Ca
+- **accounting-subscription-add-ons**: Subscription Add-ons: List all add-ons for a subscription (pending + billed history), List only pending (unbilled) add-ons for a subscription (paginated), Cancel a pending add-on (only works if not ye
 - **accounting-subscriptions**: Subscriptions: How long a subscription with an unpaid invoice stays past due before it is cancelled, Set how long a subscription with an unpaid invoice stays past due before it is cancelled, List subs
 - **accounting-supplier-credits**: Supplier Credits: List supplier credits, Create a supplier credit, Delete multiple supplier credits, Validate which supplier credits can be deleted
 - **accounting-supplier-documents**: Supplier Documents: A bill beside its supplier's document at the government, Accept, reject or keep pending a bill's supplier's document, Check the answer sent for a bill's supplier's document, Read a

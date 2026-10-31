@@ -1,0 +1,16 @@
+{
+  "name": "golegally-accounting",
+  "owner": {
+    "name": "Vadavision Private Limited"
+  },
+  "metadata": {
+    "description": "Invoices, bills, contacts, products, payments and reports in GoLegally Accounting."
+  },
+  "plugins": [
+    {
+      "name": "golegally-accounting",
+      "source": "./",
+      "description": "Invoices, bills, contacts, products, payments and reports in GoLegally Accounting."
+    }
+  ]
+}

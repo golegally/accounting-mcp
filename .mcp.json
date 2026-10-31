@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "golegally-accounting": {
+      "type": "http",
+      "url": "https://golegally-accounting.mcp.pretuned.ai/mcp"
+    }
+  }
+}

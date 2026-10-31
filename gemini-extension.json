@@ -1,0 +1,10 @@
+{
+  "name": "golegally-accounting",
+  "version": "1.0.10",
+  "description": "Invoices, bills, contacts, products, payments and reports in GoLegally Accounting.",
+  "mcpServers": {
+    "golegally-accounting": {
+      "httpUrl": "https://golegally-accounting.mcp.pretuned.ai/mcp"
+    }
+  }
+}

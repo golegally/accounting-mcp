@@ -1,0 +1,14 @@
+{
+  "name": "golegally-accounting",
+  "displayName": "GoLegally Accounting",
+  "version": "1.0.10",
+  "description": "Invoices, bills, contacts, products, payments and reports in GoLegally Accounting.",
+  "author": {
+    "name": "Vadavision Private Limited",
+    "url": "https://ae.golegally.com"
+  },
+  "homepage": "https://ae.golegally.com",
+  "supportUrl": "https://golegally.com/contact",
+  "privacyPolicyUrl": "https://golegally.com/privacy",
+  "termsOfServiceUrl": "https://golegally.com/terms"
+}

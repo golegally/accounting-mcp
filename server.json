@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.golegally/accounting-mcp",
+  "title": "GoLegally Accounting",
+  "description": "Invoices, bills, contacts, products, payments and reports in GoLegally Accounting.",
+  "repository": {
+    "url": "https://github.com/golegally/accounting-mcp",
+    "source": "github"
+  },
+  "version": "1.0.12",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://golegally-accounting.mcp.pretuned.ai/mcp"
+    }
+  ]
+}

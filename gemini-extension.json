@@ -1,6 +1,6 @@
 {
   "name": "golegally-accounting",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Invoices, bills, contacts, products, payments and reports in GoLegally Accounting.",
   "mcpServers": {
     "golegally-accounting": {

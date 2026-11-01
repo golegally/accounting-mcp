@@ -13,7 +13,7 @@ This package connects your AI assistant to one hosted MCP server at https://gole
 - **accounting-banking**: Banking: List all bank accounts, Create a bank account for reconciliation, Get bank account by ID, Edit a bank account
 - **accounting-banking-apply**: Banking apply: Apply the bank rules to uncategorised lines
 - **accounting-banking-auto-match**: Banking auto match: Auto-match pending transactions against GL entries
-- **accounting-banking-categorization-suggestions**: Banking categorization suggestions: What uncategorised bank lines most likely are
+- **accounting-banking-categorization**: Banking categorization suggestions: What uncategorised bank lines most likely are
 - **accounting-banking-reconcile**: Banking reconcile: Reconcile selected bank transactions
 - **accounting-banking-reconciliation-summary**: Banking reconciliation summary: Get reconciliation summary for a bank account
 - **accounting-banking-reconciliations**: Banking reconciliations: A bank account's reconciliations, newest first, A reconciliation's report: its figures and the lines it cleared, Undo the latest reconciliation

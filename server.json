@@ -7,7 +7,7 @@
     "url": "https://github.com/golegally/accounting-mcp",
     "source": "github"
   },
-  "version": "1.0.15",
+  "version": "1.0.16",
   "remotes": [
     {
       "type": "streamable-http",

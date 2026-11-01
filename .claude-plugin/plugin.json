@@ -8,6 +8,8 @@
     "url": "https://ae.golegally.com"
   },
   "homepage": "https://ae.golegally.com",
+  "repository": "https://github.com/golegally/accounting-mcp",
+  "documentationUrl": "https://github.com/golegally/accounting-mcp",
   "supportUrl": "https://golegally.com/contact",
   "privacyPolicyUrl": "https://golegally.com/privacy",
   "termsOfServiceUrl": "https://golegally.com/terms",
